@@ -29,22 +29,26 @@ html, body {
     justify-content: space-around;
 }
 
-.leftdflex {
-    background-color: aliceblue;
-    display: flex;
-}
-
-.leftdflex > a > img {
+.leftdflex{
     width: 100px;
-    height: 60px;
+    height: 100px;
+    display: inline-block;
+
+    background-color: yellowgreen;
 }
 
 .centerdflex{
-    height: 60px;
-    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+    background-color: rgb(50, 205, 195);
 }
 
-.rightdflex {
-    height: 60px;
-    background-color: bisque;
+.rightdflex{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+    background-color: rgb(97, 50, 205);
 }
