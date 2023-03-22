@@ -21,3 +21,30 @@ html, body {
     color: white;
 }
 
+.topheader{
+    background-color: black;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftdflex {
+    background-color: aliceblue;
+    display: flex;
+}
+
+.leftdflex > a > img {
+    width: 100px;
+    height: 60px;
+}
+
+.centerdflex{
+    height: 60px;
+    background-color: aqua;
+}
+
+.rightdflex {
+    height: 60px;
+    background-color: bisque;
+}
