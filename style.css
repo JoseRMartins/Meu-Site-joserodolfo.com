@@ -21,14 +21,6 @@ html, body {
     color: white;
 }
 
-.topheader{
-    background-color: black;
-    height: 60px;
-    width: 100vw;
-    display: flex;
-    justify-content: space-around;
-}
-
 .navheader {
     height: 60px;
     width: 100vw;
@@ -61,4 +53,8 @@ html, body {
     justify-content: space-around;
 
     background-color: rgb(97, 50, 205);
+}
+
+p{
+    
 }
